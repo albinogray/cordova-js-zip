@@ -35,7 +35,7 @@ Promises wrapper for [Cordova zip library] (https://github.com/MobileChromeApps/
     options.retryCount = 5 // retry unzip for 5 times before failing (defaults to 1)
 ```
 
-The Promise option expects a Promise library that follows the [Promise/A+ spec](https://promisesaplus.com/), such as bluebird ([github](https://github.com/petkaantonov/bluebird), [download](https://raw.githubusercontent.com/markmarijnissen/cordova-app-loader/master/www/lib/bluebird.js)).
+The Promise option expects a library that follows the [Promise/A+ spec](https://promisesaplus.com/), such as Q ([github](https://github.com/kriskowal/q)).
 
 The Zip option expects the Cordova zip library or something that implements the same API.
 

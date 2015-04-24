@@ -28,7 +28,7 @@ Promises wrapper for [Cordova zip library] (https://github.com/MobileChromeApps/
     var zip = zipUtil({
      retryCount: 3, // How many times to retry unzip if it fails (default is 1)
      Zip: window.zip // The zip library
-     Promise: require('promiscuous') // Promise/A+ library
+     Promise: require('q') // Promise/A+ library
     });
 
     zip.unzip(src, dest, options)   // unzip src zip file to dest directory
